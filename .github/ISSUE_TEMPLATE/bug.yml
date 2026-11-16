@@ -12,7 +12,6 @@ body:
     id: repro
     attributes:
       label: Steps or command to reproduce
-      render: shell
     validations:
       required: true
   - type: input
