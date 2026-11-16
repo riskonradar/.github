@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/riskonradar/.github/main/logo.png" width="80" height="80" alt="Risk on Radar" />
-
 # risk on radar.
 
 **Evidence-backed failure intelligence for reliability and quality engineering teams.**
