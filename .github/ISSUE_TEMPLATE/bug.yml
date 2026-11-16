@@ -1,0 +1,27 @@
+name: Bug
+description: Something is broken
+type: Bug
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens vs what should happen
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps or command to reproduce
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where (URL, commit, environment)
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when (the check that proves the fix)
+    validations:
+      required: true
